@@ -1,0 +1,4 @@
+def remove_duplicates(lst):
+    lSet = set(lst)
+    Slst = list(lSet)
+    return Slst
