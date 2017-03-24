@@ -1,0 +1,9 @@
+def product(lst):
+    total = 1
+    
+    for l in lst:
+        total = total * l
+    return total
+    
+
+print product([4,5,4])
