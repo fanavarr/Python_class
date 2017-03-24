@@ -1,0 +1,7 @@
+def media(lst):
+    s = sorted(lst)
+    l = len(lst)/2
+    if len(lst)%2 == 0:
+        return (s[l] + s[l-1])/2.0
+    else:
+        return s[l]
