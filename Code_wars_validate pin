@@ -1,0 +1,6 @@
+def validate_pin(pin):
+   return len(pin) in (4, 6) and pin.isdigit()
+   
+   
+#len(pin) in (4, 6) checks that the length of  pin is between 4 and 6
+#pin.isdigit() checks if pin is a "number"
